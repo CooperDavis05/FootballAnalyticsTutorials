@@ -33,6 +33,9 @@ library(gtExtras)
 
 ########################################################################################################################
 # We are gonna play around with the data
+install.packages("future") # We need the package "Future"
+library(future)
+
 future::plan("multisession")
 pbp <- load_pbp(2023)
 
