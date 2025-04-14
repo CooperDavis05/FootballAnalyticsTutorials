@@ -5,7 +5,7 @@ library(gt)
 library(gtExtras)
 
 
-pbp_ptdiff_comb <- write.csv("pbp_ptdiff_comb.csv") # Lets load in the CSV from last time
+pbp_ptdiff_comb <- read.csv("pbp_ptdiff_comb.csv") # Lets load in the CSV from last time
 
 schedules <- load_schedules(2023) |> filter(game_type == "REG") # Load in schedules // filter only regular season
 
