@@ -8,7 +8,7 @@ future::plan("multisession")
 pbp <- load_pbp(2020:2024)
 
 
-# Binomial Regression
+# Logistic Regression
 ## Using regression techniques to predict an outcome (yes/no)
 
 # Quarter/time, Wind Speed, Turf-Type(?), Game Type
