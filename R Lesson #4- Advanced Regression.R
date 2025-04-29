@@ -83,7 +83,7 @@ kicker_performance_roster |>
   cols_align(align = "center") |> 
   gt_theme_espn() |> 
   tab_header(
-    title = "Top 10 Seasons in Field Goals Over Expected"
+    title = "Top 10 Seasons in Field Goals Over Expected 2020-2024"
   )
   
 # Bottom 10 kicker performances
@@ -104,7 +104,7 @@ kicker_performance_roster |>
   cols_align(align = "center") |> 
   gt_theme_espn() |> 
   tab_header(
-    title = "Bottom 10 Seasons in Field Goals Over Expected"
+    title = "Bottom 10 Seasons in Field Goals Over Expected 2020-2024"
   )
 
 
