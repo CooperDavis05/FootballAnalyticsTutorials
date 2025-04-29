@@ -8,4 +8,4 @@ The lessons are as follows:
 - Lesson 4: Data Modeling using Advanced Regression Techniques (logistic regression)
 - Lesson 5: Random Forest and XGBoost Modeling
 
-Developed by Cooper Davis with influence from tutorials by Tej Seth (@Tejfbanalytics on Twitter). 
+Developed by Cooper Davis, inspiration from tutorials by Tej Seth (@Tejfbanalytics on Twitter). 
