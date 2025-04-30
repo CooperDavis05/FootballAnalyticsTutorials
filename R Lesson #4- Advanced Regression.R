@@ -62,7 +62,7 @@ kicker_performance_roster <- kicker_performance |>
   right_join(rosters, by = c("kicker_player_id" = "gsis_id", "season")) |> 
   unique() |> 
   drop_na() |>  
-  right_join(teams_colors_logos |> select(team_abbr, team_logo_espn), by = c("posteam" = "team_abbr")) |> 
+  right_join(load_teams() |> select(team_abbr, team_logo_espn), by = c("posteam" = "team_abbr")) |> 
   select(full_name, headshot_url, season, team_logo_espn, fgoe)
 
 # Top 10 kicker performances
